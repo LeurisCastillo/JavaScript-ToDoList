@@ -1,0 +1,21 @@
+{
+  "name": "jstodolist",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install -g serve; serve -s build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeurisCastillo/JavaScript-ToDoList.git"
+  },
+  "author": "Leuris Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeurisCastillo/JavaScript-ToDoList/issues"
+  },
+  "homepage": "https://github.com/LeurisCastillo/JavaScript-ToDoList#readme"
+}
